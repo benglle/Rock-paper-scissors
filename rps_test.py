@@ -1,3 +1,4 @@
+import os
 import random as r
 import time as t
 values = {"rock_wins":0, "paper_wins":0, "scissor_wins":0, "draws":0}
