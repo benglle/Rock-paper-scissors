@@ -1,4 +1,3 @@
-import os
 import random as r
 import time as t
 values = {"rock_wins":0, "paper_wins":0, "scissor_wins":0, "draws":0}
@@ -32,7 +31,6 @@ def rock_paper_scissors(times, show):
         times -= 1
         if show == True:
             print(values)
-        clear()
         
     print("-------------------------------")
     print("")
@@ -40,7 +38,7 @@ def rock_paper_scissors(times, show):
     print("-------------------------------")
     print(values)
 
-rock_paper_scissors(10000, False)
+rock_paper_scissors(100, False)
 
     
 #18/02/2021
